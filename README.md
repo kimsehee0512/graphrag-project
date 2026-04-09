@@ -28,9 +28,10 @@ Text → LLM → Entity & Relation Extraction → Neo4j Graph → Retrieval → 
 ---
 
 ##  Project Structure
+```
 .
 ├── data/
-│ └── sample.txt
+│   └── sample.txt
 ├── build_graph_from_text.py
 ├── graphrag_basic.py
 ├── graphrag_qa.py
@@ -40,4 +41,5 @@ Text → LLM → Entity & Relation Extraction → Neo4j Graph → Retrieval → 
 ├── main.py
 ├── pyproject.toml
 └── uv.lock
+```
 
