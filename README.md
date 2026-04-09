@@ -28,3 +28,14 @@ Text → LLM → Entity & Relation Extraction → Neo4j Graph → Retrieval → 
 ---
 
 ##  Project Structure
+├── data/ # Input text data
+│ └── sample.txt
+├── build_graph_from_text.py # Extract graph from text
+├── graphrag_basic.py # Basic GraphRAG example
+├── graphrag_qa.py # Graph-based QA system
+├── test_openai.py # OpenAI connection test
+├── test_neo4j.py # Neo4j connection test
+├── test_neo4j_data.py # Neo4j data creation test
+├── main.py # Entry file (optional)
+├── pyproject.toml # Project dependencies
+└── uv.lock # Lock file
